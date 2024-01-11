@@ -1,0 +1,52 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    outline: 3px solid black;
+
+}
+
+.items_1 {
+    background-color: tomato;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-grow: 2;
+    text-align: center;
+    order: -1;
+}
+
+.items_2 {
+    background-color: royalblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    flex-grow: 2;
+    order: 1;
+}
+
+.items_4 {
+    background-color: green;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    flex-grow: 2;
+    order: 2;
+}
+
+.items_5 {
+    background-color: gold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    flex-grow: 2;
+    order: -1;
+}
+
+.items_3 {
+    background-color: purple;
+    flex-wrap: nowrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    flex-grow: 2;
+
+}
